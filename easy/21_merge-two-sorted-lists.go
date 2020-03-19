@@ -44,13 +44,12 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func (l ListNode) String() string {
-	str := strconv.Itoa(l.Val) + "->"
-	next := l.Next
+func (l *ListNode) String() string {
+	str := ""
 	for {
-		str += strconv.Itoa(next.Val) + "->"
-		next = next.Next
-		if next == nil {
+		str += strconv.Itoa(l.Val) + "->"
+		l = l.Next
+		if l == nil {
 			str = strings.TrimSuffix(str, "->")
 			return str
 		}
