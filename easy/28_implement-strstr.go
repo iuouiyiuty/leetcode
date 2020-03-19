@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 28. 实现 strStr()
 实现 strStr() 函数。
@@ -17,10 +15,10 @@ import "fmt"
 输出: -1
 */
 
-func main() {
-	fmt.Println(strStr("hello", "ll"))
-	fmt.Println(strStr("heoll", "ll"))
-}
+//func main() {
+//	fmt.Println(strStr("hello", "ll"))
+//	fmt.Println(strStr("heoll", "ll"))
+//}
 
 func strStr(haystack string, needle string) int {
 	if needle == "" {

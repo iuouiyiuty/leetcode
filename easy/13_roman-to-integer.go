@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M。
 
@@ -46,13 +44,13 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 输出: 1994
 解释: M = 1000, CM = 900, XC = 90, IV = 4.
 */
-func main() {
-	fmt.Println(romanToInt("III"))
-	fmt.Println(romanToInt("IV"))
-	fmt.Println(romanToInt("IX"))
-	fmt.Println(romanToInt("LVIII"))
-	fmt.Println(romanToInt("MCMXCIV"))
-}
+//func main() {
+//	fmt.Println(romanToInt("III"))
+//	fmt.Println(romanToInt("IV"))
+//	fmt.Println(romanToInt("IX"))
+//	fmt.Println(romanToInt("LVIII"))
+//	fmt.Println(romanToInt("MCMXCIV"))
+//}
 
 func romanToInt(s string) int {
 	m := map[string]int{

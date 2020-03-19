@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 编写一个函数来查找字符串数组中的最长公共前缀。
 
@@ -20,12 +18,12 @@ import "fmt"
 所有输入只包含小写字母 a-z 。
 */
 
-func main() {
-	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
-	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "floght"}))
-	fmt.Println(longestCommonPrefix([]string{"flow", "flow", "flow"}))
-	fmt.Println(longestCommonPrefix([]string{"dog", "racecar", "car"}))
-}
+//func main() {
+//	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
+//	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "floght"}))
+//	fmt.Println(longestCommonPrefix([]string{"flow", "flow", "flow"}))
+//	fmt.Println(longestCommonPrefix([]string{"dog", "racecar", "car"}))
+//}
 
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {

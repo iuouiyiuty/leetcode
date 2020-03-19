@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
@@ -16,29 +15,29 @@ import (
 
 */
 
-func main() {
-	a1 := &ListNode{Val: 1}
-	a2 := &ListNode{Val: 7}
-	a3 := &ListNode{Val: 8}
-
-	a1.Next = a2
-	a2.Next = a3
-
-	b1 := &ListNode{Val: 1}
-	b2 := &ListNode{Val: 2}
-	b3 := &ListNode{Val: 3}
-	b4 := &ListNode{Val: 4}
-
-	b1.Next = b2
-	b2.Next = b3
-	b3.Next = b4
-
-	fmt.Println(a1)
-	fmt.Println(b1)
-
-	fmt.Println(mergeTwoLists(a1, b1))
-
-}
+//func main() {
+//	a1 := &ListNode{Val: 1}
+//	a2 := &ListNode{Val: 7}
+//	a3 := &ListNode{Val: 8}
+//
+//	a1.Next = a2
+//	a2.Next = a3
+//
+//	b1 := &ListNode{Val: 1}
+//	b2 := &ListNode{Val: 2}
+//	b3 := &ListNode{Val: 3}
+//	b4 := &ListNode{Val: 4}
+//
+//	b1.Next = b2
+//	b2.Next = b3
+//	b3.Next = b4
+//
+//	fmt.Println(a1)
+//	fmt.Println(b1)
+//
+//	fmt.Println(mergeTwoLists(a1, b1))
+//
+//}
 
 type ListNode struct {
 	Val  int

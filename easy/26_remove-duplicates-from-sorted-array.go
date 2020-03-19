@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 26. 删除排序数组中的重复项
 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
@@ -19,16 +17,16 @@ import "fmt"
 你不需要考虑数组中超出新长度后面的元素。
 */
 
-func main() {
-	arr := []int{1, 1, 2}
-	fmt.Println(removeDuplicates(arr))
-	fmt.Println(arr)
-
-	arr2 := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
-	fmt.Println(removeDuplicates(arr2))
-	fmt.Println(arr2)
-
-}
+//func main() {
+//	arr := []int{1, 1, 2}
+//	fmt.Println(removeDuplicates(arr))
+//	fmt.Println(arr)
+//
+//	arr2 := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+//	fmt.Println(removeDuplicates(arr2))
+//	fmt.Println(arr2)
+//
+//}
 
 func removeDuplicates(nums []int) int {
 	if len(nums) == 0 {

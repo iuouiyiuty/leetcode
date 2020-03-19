@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
 
@@ -15,13 +13,13 @@ import "fmt"
 所以返回 [0, 1]
 */
 
-func main() {
-	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
-	fmt.Println(twoSum([]int{2, 7, 11, 15}, 18))
-	fmt.Println(twoSum([]int{2, 7, 11, 15}, 19))
-	fmt.Println(twoSum([]int{3, 3}, 6))
-	fmt.Println(twoSum([]int{0, 4, 3, 0}, 0))
-}
+//func main() {
+//	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
+//	fmt.Println(twoSum([]int{2, 7, 11, 15}, 18))
+//	fmt.Println(twoSum([]int{2, 7, 11, 15}, 19))
+//	fmt.Println(twoSum([]int{3, 3}, 6))
+//	fmt.Println(twoSum([]int{0, 4, 3, 0}, 0))
+//}
 
 func twoSum(nums []int, target int) []int {
 	if len(nums) == 0 {

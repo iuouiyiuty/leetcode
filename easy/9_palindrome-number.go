@@ -24,15 +24,15 @@ import "fmt"
 你能不将整数转为字符串来解决这个问题吗？
 */
 
-func main() {
-	fmt.Println(isPalindrome(11))
-
-	fmt.Println(isPalindrome2(121))
-	fmt.Println(isPalindrome2(12345678987654321))
-	fmt.Println(isPalindrome2(11))
-	fmt.Println(isPalindrome2(-121))
-	fmt.Println(isPalindrome2(10))
-}
+//func main() {
+//	fmt.Println(isPalindrome(11))
+//
+//	fmt.Println(isPalindrome2(121))
+//	fmt.Println(isPalindrome2(12345678987654321))
+//	fmt.Println(isPalindrome2(11))
+//	fmt.Println(isPalindrome2(-121))
+//	fmt.Println(isPalindrome2(10))
+//}
 
 func isPalindrome(x int) bool {
 	if x < 0 {

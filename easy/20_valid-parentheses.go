@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
 
@@ -32,15 +30,15 @@ import "fmt"
 输出: true
 
 */
-
-func main() {
-	fmt.Println(isValid("()"))
-	fmt.Println(isValid("()[]{}"))
-	fmt.Println(isValid("(]"))
-	fmt.Println(isValid("([)]"))
-	fmt.Println(isValid("{[]}"))
-	fmt.Println(isValid("{[(]}"))
-}
+//
+//func main() {
+//	fmt.Println(isValid("()"))
+//	fmt.Println(isValid("()[]{}"))
+//	fmt.Println(isValid("(]"))
+//	fmt.Println(isValid("([)]"))
+//	fmt.Println(isValid("{[]}"))
+//	fmt.Println(isValid("{[(]}"))
+//}
 
 func isValid(s string) bool {
 	if len(s) == 0 {

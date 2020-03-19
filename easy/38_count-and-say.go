@@ -35,12 +35,6 @@ import (
 也就是出现频次 = 1 而 值 = 2；类似 "1" 可以读作 "11"。所以答案是 "12" 和 "11" 组合在一起，也就是 "1211"。
 */
 
-//func main() {
-//	for i := 1; i <= 30; i++ {
-//		fmt.Printf("n: %d,\tres: %s\n", i, CountAndSay2(i))
-//	}
-//}
-
 func CountAndSay(n int) string {
 	if n == 1 {
 		return "1"

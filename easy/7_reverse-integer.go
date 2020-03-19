@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -25,11 +24,11 @@ import (
 假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−2^31,  2^31 − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。
 */
 
-func main() {
-	fmt.Println(reverse(123))
-	fmt.Println(reverse(-123))
-	fmt.Println(reverse(1 << 29))
-}
+//func main() {
+//	fmt.Println(reverse(123))
+//	fmt.Println(reverse(-123))
+//	fmt.Println(reverse(1 << 29))
+//}
 
 func reverse(x int) int {
 	res := int64(0) // 64位防止溢出
