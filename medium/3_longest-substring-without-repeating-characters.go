@@ -97,6 +97,7 @@ func lengthOfLongestSubstring2(s string) int {
 		// 向右移动一位
 		end++
 	}
+
 	if end-start > max {
 		max = end - start
 	}
