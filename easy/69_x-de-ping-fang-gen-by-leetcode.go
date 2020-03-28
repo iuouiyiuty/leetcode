@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 69. x 的平方根
 实现 int sqrt(int x) 函数。
@@ -21,9 +19,9 @@ import "fmt"
      由于返回类型是整数，小数部分将被舍去。
 */
 
-func main() {
-	fmt.Println(mySqrt(8))
-}
+//func main() {
+//	fmt.Println(mySqrt(8))
+//}
 
 // 2分法
 func mySqrt(x int) int {

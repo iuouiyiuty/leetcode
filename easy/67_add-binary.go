@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -20,9 +19,9 @@ import (
 输出: "10101"
 */
 
-func main() {
-	fmt.Println(addBinary("1010", "1011"))
-}
+//func main() {
+//	fmt.Println(addBinary("1010", "1011"))
+//}
 
 func addBinary(a string, b string) string {
 	aa, _ := strconv.ParseInt(a, 2, 64)

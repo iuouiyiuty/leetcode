@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 66. 加一
 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
@@ -21,13 +19,13 @@ import "fmt"
 解释: 输入数组表示数字 4321。
 */
 
-func main() {
-	fmt.Println(plusOne([]int{1, 2, 3}))
-	fmt.Println(plusOne([]int{1, 2, 3, 4}))
-	fmt.Println(plusOne([]int{1, 9, 9}))
-	fmt.Println(plusOne([]int{1, 9}))
-	fmt.Println(plusOne([]int{9, 9}))
-}
+//func main() {
+//	fmt.Println(plusOne([]int{1, 2, 3}))
+//	fmt.Println(plusOne([]int{1, 2, 3, 4}))
+//	fmt.Println(plusOne([]int{1, 9, 9}))
+//	fmt.Println(plusOne([]int{1, 9}))
+//	fmt.Println(plusOne([]int{9, 9}))
+//}
 
 func plusOne(digits []int) []int {
 	// 一位，且小于9，直接加1返回

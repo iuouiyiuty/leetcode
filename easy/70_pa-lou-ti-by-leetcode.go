@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 70. 爬楼梯
 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
@@ -26,9 +24,9 @@ import "fmt"
 3.  2 阶 + 1 阶
 */
 
-func main() {
-	fmt.Println(climbStairs(10))
-}
+//func main() {
+//	fmt.Println(climbStairs(10))
+//}
 
 // 斐波那契数
 func climbStairs(n int) int {
